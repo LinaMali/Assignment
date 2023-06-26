@@ -1,0 +1,53 @@
+<!--
+1) Create an HTML form that collects information from users about their favorite color,
+ animal, and food. The form should have the following requirements:
+i) The form should be titled "My Favorites".
+ii) The form should not use any specific method to submit data.
+iii) The form should have a field for the user's favorite color, with a
+label that says "Favorite Color".
+iv) The form should not require the color field.
+v) The form should have a field for the user's favorite animal, with a
+label that says "Favorite Animal".
+vi) The animal field should have a default value of "Dog".
+vii) The form should have a field for the user's favorite food, with a
+label that says "Favorite Food".
+viii) The food field should have a placeholder text that says "Pizza,
+Tacos, Sushi, etc.".
+ix) The form should have a submit button with the label "Save My
+Favorites".
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites</title>
+</head>
+<body>
+    <form>
+        <h2>My Favorites</h2>
+        <label>Favorite Color : </label>&nbsp;&nbsp;
+        <input type="text" name="favoritecolor"><br><br>
+        <label for="Favorite Animal ">Favorite Animal : </label>
+        <select name="dropdown">
+            <option value="Dog" selected>Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Tiger">Tiger</option>
+            <option value="Cat">Cat</option>
+            <option value="Rabbit">Rabbit</option>
+            <option value="Tortoise">Tortoise</option>
+            <option value="Bear">Bear</option>
+            <option value="Lion">Lion</option>
+            <option value="Leopard">Leopard</option>
+            <option value="Elephant">Elephant</option>
+            <option value="Horse">Horse</option>
+            <option value="Goat">Goat</option>
+            <option value="Monkey">Monkey</option>
+        </select><br><br>
+        <label>Favorite Food : </label>&nbsp;&nbsp;
+        <input type="text" name="favoritefood" placeholder="Pizza, Tacos, Sushi, etc."><br><br>
+        <input type="submit" name="button" value="Save My Favorites">
+    </form>
+</body>
+</html>
